@@ -30,6 +30,10 @@ hr {
 	transition: all 0.8s;
 }
 
+#menu img{
+	max-width: 100%;
+}
+
 #menu.navbar-default {
 	background-color: rgba(248, 248, 248, 0);
 	border-color: rgba(231, 231, 231, 0);
@@ -125,7 +129,7 @@ hr {
 .btn-custom:active,
 .btn-custom.active {
 	color: #fff;
-	background-color: #628d0f;
+	background-color: #a37133;
 }
 
 /* Header Section */
