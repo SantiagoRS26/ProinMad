@@ -30,6 +30,7 @@ a {
 /* Navigation */
 #menu {
 	padding: 20px;
+	background-color: #262626 !important;
 	transition: all 0.8s;
 }
 
@@ -150,7 +151,9 @@ header {
 	padding: 0;
 
 }
-
+#logoPrincipal{
+	height: 220px;
+}
 .intro video {
 	z-index: -1;
 	position: absolute;
@@ -211,7 +214,7 @@ header .intro-text {
 
 .service .service-img img {
 	width: 100%;
-	height: 100%;
+	height: 250px;
 }
 
 .service .service-overlay {
