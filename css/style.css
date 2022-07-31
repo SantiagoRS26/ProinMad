@@ -30,7 +30,7 @@ a {
 /* Navigation */
 #menu {
 	padding: 20px;
-	background-color: #262626 !important;
+	background-color: #020b1b !important;
 	transition: all 0.8s;
 }
 
@@ -142,7 +142,7 @@ a {
 /* Header Section */
 header {
 	height: 100%;
-	background: rgba(0, 0, 0, 0.4);
+	background: rgba(0, 0, 0, 0.719);
 }
 
 .intro {
@@ -246,7 +246,7 @@ header .intro-text {
 	display: flex;
 	align-items: center;
 	height: 60px;
-	background: #030f27;
+	background: #020b1b;
 	overflow: hidden;
 	white-space: nowrap;
 	text-overflow: ellipsis;
@@ -275,7 +275,7 @@ header .intro-text {
 	font-size: 60px;
 	line-height: 60px;
 	font-weight: 100;
-	color: #030f27;
+	color: #020b1b;
 	background: #d4a56b;
 	border-radius: 0;
 	transition: .3s;
@@ -372,6 +372,9 @@ header .intro-text {
     padding: 45px 0 15px 0;
 }
 
+.container-team{
+	width: 100%;
+}
 .team .team-item {
     position: relative;
 	transition: .3s 0s;
@@ -391,7 +394,7 @@ header .intro-text {
     position: relative;
     padding: 25px 15px;
     text-align: center;
-    background: #030f27;
+    background: #020b1b;
     transition: .5s;
 }
 
@@ -412,7 +415,7 @@ header .intro-text {
 }
 
 .team .team-item:hover .team-text h2 {
-    color: #030f27;
+    color: #020b1b;
     letter-spacing: 1px;
 }
 
@@ -463,6 +466,31 @@ header .intro-text {
     transition: .3s .3s;
 }
 
+/* Map Section */
+
+#map{
+	width: 85%;
+	margin: 40px auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+#map p {
+	color: #d4a56b;
+	font-size: 18px;
+	font-weight: 600;
+	margin-bottom: 5px;
+}
+
+#map h2 {
+	margin: 0;
+	position: relative;
+	font-size: 50px;
+	font-weight: 700;
+	margin-bottom: 30px;
+}
 /* Contact Section */
 #contact {
 	padding: 100px 0 60px 0;
@@ -555,7 +583,7 @@ label {
 
 /* Footer Section*/
 #footer {
-	background: #262626;
+	background: #020b1b;
 	padding: 50px 0 0 0;
 }
 
