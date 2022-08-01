@@ -142,7 +142,7 @@ a {
 /* Header Section */
 header {
 	height: 100%;
-	background: rgba(0, 0, 0, 0.719);
+	background: rgba(0, 0, 0, 0.219);
 }
 
 .intro {
@@ -152,6 +152,8 @@ header {
 
 }
 #logoPrincipal{
+	background-color: #ffffff;
+	border-radius: 10px;
 	height: 220px;
 }
 .intro video {
