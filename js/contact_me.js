@@ -11,6 +11,7 @@ $(function() {
             // obtener valores del formulario
             var name = $("input#name").val();
             var email = $("input#email").val();
+            var phone = $("input#phone").val();
             var message = $("textarea#message").val();
             var firstName = name; // Para mensaje de éxito/fracaso
             // Compruebe si hay espacios en blanco en el nombre para el mensaje de éxito/fallo
@@ -23,6 +24,7 @@ $(function() {
                 data: {
                     name: name,
                     email: email,
+                    phone: phone,
                     message: message
                 },
                 cache: false,

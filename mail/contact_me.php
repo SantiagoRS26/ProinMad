@@ -13,6 +13,7 @@ if(empty($_POST['name'])  		||
 $name = $_POST['name'];
 $email_address = $_POST['email'];
 $message = $_POST['message'];
+$phone = $_POST['phone'];
 
 
 require '../vendor/autoload.php';
@@ -35,6 +36,7 @@ $api->setLogger(new CurlLogger());
 
 $user_data = (new UserData())
     ->setEmails(array($email_address))
+    ->setPhones(array($phone))
     // It is recommended to send Client IP and User Agent for Conversions API Events.
     ->setClientIpAddress($_SERVER['REMOTE_ADDR'])
     ->setClientUserAgent($_SERVER['HTTP_USER_AGENT'])
